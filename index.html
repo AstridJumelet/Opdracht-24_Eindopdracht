@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Eindopdracht kleurentoggle</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="lightgrey-background">
+    <nav class="nav-main">
+        <div class="btn-toggle-nav" onclick="toggleNav()"></div>
+    </nav>
+
+    <nav class="nav-menu">
+        <ul class="btn-toggle-nav2" onclick="toggleNav()">
+            <li><a href="#" id="BtnHome" onclick="document.body.style.backgroundColor = 'grey';"
+                    class="grey-background">Home</a></li>
+            <li><a href="#" id="BtnRood" onclick="document.body.style.backgroundColor = 'red';"
+                    class="red-background">Rood</a></li>
+            <li><a href="#" id="BtnOranje" onclick="document.body.style.backgroundColor = 'orange';"
+                    class="orange-background">Oranje</a></li>
+            <li><a href="#" id="BtnPaars" onclick="document.body.style.backgroundColor = 'purple';"
+                    class="purple-background">Paars</a></li>
+            <li><a href="#" id="BtnGroen" onclick="document.body.style.backgroundColor = 'green';"
+                    class="green-background">Groen</a></li>
+        </ul>
+    </nav>
+
+</body>
+
+</html>
